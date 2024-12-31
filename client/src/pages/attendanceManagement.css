@@ -1,0 +1,83 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Main container */
+.attendance-management {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.attendance-management h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #2a2a2a;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #555;
+}
+
+td {
+    background-color: #fff;
+}
+
+/* Hover effect for rows */
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Task list styles */
+td div {
+    margin-bottom: 8px;
+    font-size: 0.95em;
+    color: #555;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .attendance-management {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 0.9em;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+}
